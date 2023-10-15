@@ -1,0 +1,250 @@
+body {
+  margin-top: 16px;
+  background: #eee;
+  font-family: 'poppins', sans-serif;
+}
+.my-color {
+  color: #60497b;
+}
+.heading {
+  font-family: 'poppins', sans-serif;
+  color: white;
+  padding: 20px 0;
+  background-color: #60497b;
+  border-radius: 10px;
+}
+.button {
+  background: #60497b;
+  color: aliceblue;
+  font-weight: 400;
+}
+.button:hover {
+  background: #5aabc6;
+  color: aliceblue;
+}
+.contact input {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  -webox-shadow: none;
+  box-shadow: none;
+  color: #232434;
+  font-size: 16px;
+  height: 60px;
+  padding: 10px;
+  width: 100%;
+  font-family: 'poppins', sans-serif;
+  padding-left: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.contact select {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #232434;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  font-family: 'poppins', sans-serif;
+  padding-left: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.contact input:focus {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #232434;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0 none;
+}
+.form-control::placeholder {
+  color: #232434;
+  opacity: 1;
+}
+
+.card-front {
+  position: relative;
+  max-width: 100%;
+  font-size: 16px;
+}
+.card-front img {
+  width: 100%;
+  height: auto;
+}
+.text-overlay {
+  position: absolute
+}
+.school {
+  top: 18.5%;
+  left: 35%;
+  font-size: 1.7em;
+  font-family: Times New Roman;
+  font-weight: 600;
+  color: black;
+}
+.name {
+  top: 48%;
+  left: 39%;
+  font-size: 1.2em;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  color: black;
+}
+.course {
+  top: 58%;
+  left: 41%;
+  font-size: 1.2em;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  color: black;
+}
+.reg {
+  top: 67%;
+  left: 41%;
+  font-size: 1.2em;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  color: black;
+}
+.expiry {
+  top: 77.5%;
+  left: 39%;
+  font-size: 1.2em;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  color: black;
+}
+.duration {
+  top: 71%;
+  left: 86%;
+  font-size: 2.2em;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  color: red;
+}
+.qr {
+  top: 91.5%;
+  left: 61.5%;
+  font-size: 1.35em;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  color: black;
+}
+.image{
+	top: 46%;
+	left: 1.5%;
+	width: 27%;
+	height: 25px;
+}
+.image image {
+	width: 100%;
+	height: 100%;
+}
+
+.projects-section {
+  height: 100vh;
+  width: 100%;
+  background-color: #e6e7e8;
+}
+.congratulation-wrapper {
+  max-width: 90%;
+  min-height: 80%;
+  margin-inline: auto;
+  -webkit-box-shadow: 0 0 20px #f3f3f3;
+  box-shadow: 0 0 20px #f3f3f3;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.congratulation-contents.center-text .congratulation-contents-icon {
+  margin-inline: auto;
+}
+.congratulation-contents-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #60497b;
+  color: #fff;
+  font-size: 50px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.congratulation-contents-title {
+  font-size: 32px;
+  line-height: 36px;
+  margin: -6px 0 0;
+}
+.congratulation-contents-para {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+.btn-wrapper {
+  display: block;
+}
+.content-box {
+  width: 80%;
+  height: 90%;
+}
+.cmn-btn.btn-bg-1 {
+  background: #60497b;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px;
+}
+.centered-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.centered-section-h {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-upload-container {
+    display: inline-block;
+    position: relative;
+}
+
+.custom-image-input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    border: 1px dashed #60497b;
+	border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.custom-image-input img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#imageInput {
+    display: none;
+}
